@@ -1,26 +1,32 @@
 {
-  "name": "svelte-parcel-tailwindcss-template",
-  "version": "1.0.0",
-  "description": "My simplified template stripped to minimum using only required packages",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Parables/svelte-tailwindcss-parcel.git"
-  },
-  "keywords": [
-    "template",
-    "svelte",
-    "parcel",
-    "tailwindcss",
-    "simple"
-  ],
-  "author": "Parables Boltnoel",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Parables/svelte-tailwindcss-parcel/issues"
-  },
-  "homepage": "https://github.com/Parables/svelte-tailwindcss-parcel#readme"
+	"name": "svelte-parcel-tailwindcss-template",
+	"version": "1.0.0",
+	"description": "My simplified template stripped to minimum using only required packages",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel src/index.html",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Parables/svelte-tailwindcss-parcel.git"
+	},
+	"keywords": [
+		"template",
+		"svelte",
+		"parcel",
+		"tailwindcss",
+		"simple"
+	],
+	"author": "Parables Boltnoel",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Parables/svelte-tailwindcss-parcel/issues"
+	},
+	"homepage": "https://github.com/Parables/svelte-tailwindcss-parcel#readme",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4",
+		"parcel-plugin-svelte": "^4.0.6",
+		"svelte": "^3.28.0"
+	}
 }
